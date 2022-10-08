@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/imaging/rr01/HCP_LanguageSocial/996782/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii: /home/HCPpipeline/pipeline_tools/workbench-v1.1.1/bin_rh_linux64/../exe_rh_linux64/wb_command -cifti-convert -from-nifti /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992463_996782_LANGUAGE/996782/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.nii.gz /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992463_996782_LANGUAGE/996782/MNINonLinear/Results/tfMRI_LANGUAGE_LR/tfMRI_LANGUAGE_LR_hp200_s2_level1_MSMAll.feat/GrayordinatesStats/pe1.dtseries.nii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992463_996782_LANGUAGE/996782/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii -reset-timepoints 1 1 ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench Type: Command Line Application Version: 1.3.2 Qt Compiled Version: 5.7.0 Qt Runtime Version: 5.7.0 Commit: 1c774d37d6cb5a179e0de3cbe1081cd1f698963a Commit Date: 2018-08-28 08:50:51 -0500 Compiled with OpenMP: YES Compiler: g++ (/act/gcc-4.7.2/bin) Compiler Version: 4.7.2 Compiled Debug: NO Operating System: Linux ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/imaging/local/software/workbench/v1.3.2/bin_rh_linux64/../exe_rh_linux64/wb_command -cifti-separate /imaging/rr01/HCP_LanguageSocial/996782/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii COLUMN -metric CORTEX_LEFT /imaging/rr01/Arsalan/ExtractedData/996782_Lan.L.func.gii -metric CORTEX_RIGHT /imaging/rr01/Arsalan/ExtractedData/996782_Lan.R.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/imaging/rr01/Arsalan]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_USER_SCALE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>0.000000 0.000000 0.000000 0.000000</UserScaleValues>
+   <PaletteName>Gray_Interp_Positive</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>

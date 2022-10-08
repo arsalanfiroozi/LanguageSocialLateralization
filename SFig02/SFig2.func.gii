@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GIFTI SYSTEM "http://www.nitrc.org/frs/download.php/115/gifti.dtd">
+<GIFTI Version="1.0"  NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/imaging/rr01/HCP_LanguageSocial/990366/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii: /home/HCPpipeline/pipeline_tools/workbench-v1.1.1/bin_rh_linux64/../exe_rh_linux64/wb_command -cifti-convert -from-nifti /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992103_990366_LANGUAGE/990366/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.nii.gz /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992103_990366_LANGUAGE/990366/MNINonLinear/Results/tfMRI_LANGUAGE_LR/tfMRI_LANGUAGE_LR_hp200_s2_level1_MSMAll.feat/GrayordinatesStats/pe1.dtseries.nii /HCP/hcpdb/build_ssd/chpc/BUILD/HCP_Staging/PostMsmAllTaskAnalysis_1445992103_990366_LANGUAGE/990366/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii -reset-timepoints 1 1 ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench Type: Command Line Application Version: 1.3.2 Qt Compiled Version: 5.7.0 Qt Runtime Version: 5.7.0 Commit: 1c774d37d6cb5a179e0de3cbe1081cd1f698963a Commit Date: 2018-08-28 08:50:51 -0500 Compiled with OpenMP: YES Compiler: g++ (/act/gcc-4.7.2/bin) Compiler Version: 4.7.2 Compiled Debug: NO Operating System: Linux ]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/imaging/local/software/workbench/v1.3.2/bin_rh_linux64/../exe_rh_linux64/wb_command -cifti-separate /imaging/rr01/HCP_LanguageSocial/990366/MNINonLinear/Results/tfMRI_LANGUAGE/tfMRI_LANGUAGE_hp200_s2_level2_MSMAll.feat/GrayordinatesStats/cope2.feat/cope1.dtseries.nii COLUMN -metric CORTEX_LEFT /imaging/rr01/Arsalan/ExtractedData/990366_Lan.L.func.gii -metric CORTEX_RIGHT /imaging/rr01/Arsalan/ExtractedData/990366_Lan.R.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/imaging/rr01/Arsalan]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1.000000" Green="1.000000" Blue="1.000000" Alpha="0.000000"><![CDATA[???]]></Label>
+   </LabelTable>
+   <DataArray  ArrayIndexingOrder="ColumnMajorOrder"
+               DataType="NIFTI_TYPE_FLOAT32"
+               Dim0="32492"
+               Dimensionality="1"
+               Encoding="GZipBase64Binary"
+               Endian="LittleEndian"
+               ExternalFileName=""
+               ExternalFileOffset=""
+               Intent="NIFTI_INTENT_NORMAL">
+      <MetaData>
+         <MD>
+            <Name><![CDATA[Name]]></Name>
+            <Value><![CDATA[]]></Value>
+         </MD>
+      </MetaData>
+      <Data>eJzt3d1u4kAMBtC+2b7aPnq1F0grBCHzY8+MOUfqTcnYn0OgKAT68/Pw988PAAAAAAAAEOTf+3FXP+yt6v1mrvNUmgUAAAAAgHWcbwYAAAAAYETvddo913m3rGn53Mbdbe98HmTGNj017mZ8Xl9V6/5kH5Xvm4pzVZ2piiqzVJkDAAAAAHiv4vlmAAAAAACgpnef75ld3+dh9jL6ebDsn9X74UQVZ4uYafXnFGfNc8rjaeYckfOM9Nzp+a6nz07P2yv2f+QMvfPucCxlZpd5Xd6Mx++MrDP3f2bO3qxRGWcez9XzRWWrmOtuvaxMEXlOz9JSJypHy/qIDK1rI3uP9t+57w7reueM6jX6WInoc2X3GaJqR9Tdud5OdVauz1zXuqZl+5btPm37aZur29/d9uo+ev4d/e4+Pqv61rkBAAAA2EPGOakZ579Gzr3Pqnmnx2jNnnPnVevO3qcR9/usY+fqtld9AAAAAAAAAAAAAAAAAAAAAIA6dvhukZbvS1mVIyvLygwj32OT2XtW/1nf4ZPRs7fv7r0y+kT3iKwfVTuibq+Mx9msWhDNsQYAAAAAAJzo8f6G99ZiRV3HsFrkNRqrfNM8p81UZZYKc0Rd35Ll5PyR1y1FkjvPSZll/c6c8tXLtmOu576r8zzbKc8uOQAAZni8pvHahru8HgYAAAAAAAAgw+nvT+907Wuv02c4OTsAAAAAAAB9Tnxv6MT3tE7LCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7O/xv91G/1/a/3V6672q0VLn3fo7NXrX9qxrXXO1/fOaiG1Htrm6/d1td38345irovo+qDjbLjPNekytPAbvPDeM/i3Iyjc6R9T8WTNkrp+ZP7PvN2eXOSfv6gzVfk7Yp6PPv6vzf8oXmbG3fnS23vqRuUbuk4hMmcfJKVl2yHFldf/oPKt6r+ib3TOzX1avjD7RPSLrR9UeFVHzue7MejvUGa0xsr537chxGLn9zO328gui/m+z</Data>
+   </DataArray>
+</GIFTI>
